@@ -16,6 +16,8 @@ for line in climate_data:
         # don't want to process comment lines, which start with '#'
         pass
     else:
+
+# TODO(smangham): Add call to process rainfall
         # extract our max temperature in Fahrenheit - 4th column
         fahr = float(data[3])
 
